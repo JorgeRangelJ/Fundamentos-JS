@@ -88,6 +88,16 @@ function imprimirSiEsMayorDeEdad(persona) {
 	}
 }
 
+// Funcion permitir acceso
+
+function permitirAcceso () {
+	if (!esMayordeEdad(persona)) {
+		console.log('ACCESO DENEGADO');
+	} else {
+
+	}
+}
+
 imprimirProfesiones(jorge);
 
 imprimirSiEsMayorDeEdad(jorge);
