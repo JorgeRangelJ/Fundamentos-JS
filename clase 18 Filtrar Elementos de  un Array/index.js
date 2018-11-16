@@ -56,4 +56,11 @@ var personasAltas = personas.filter(esAlta)
     return persona.altura > 1.8
 })*/
 
+// Filtrar los mas bajos
+
+const esBaja = ({altura}) => altura < 1.6
+
+var personasBajas = personas.filter(esBaja)
+
 console.log(personasAltas)
+console.log(personasBajas)
